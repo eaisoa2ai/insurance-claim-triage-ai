@@ -1,0 +1,300 @@
+{
+  "generated_at": "2026-06-16T13:44:26.379602+00:00",
+  "model": "gpt-4o",
+  "total_images": 19,
+  "observations": [
+    {
+      "image_id": "0002",
+      "filename": "0002.jpg",
+      "visible_damage": [
+        "scrape",
+        "paint_transfer"
+      ],
+      "damaged_parts": [
+        "rear_bumper"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.9,
+      "uncertainty": "The image is clear but does not provide information on the full extent of any underlying damage.",
+      "short_visual_summary": "The rear bumper shows visible scrapes and paint transfer, indicating surface-level damage."
+    },
+    {
+      "image_id": "0003",
+      "filename": "0003.jpg",
+      "visible_damage": [
+        "dent"
+      ],
+      "damaged_parts": [
+        "driver_door"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "angle and lighting could obscure additional minor damages",
+      "short_visual_summary": "The image shows a dent on the driver's door of a car."
+    },
+    {
+      "image_id": "0004",
+      "filename": "0004.jpg",
+      "visible_damage": [
+        "dent",
+        "scrape"
+      ],
+      "damaged_parts": [
+        "driver_door",
+        "rear_door"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "Depth and extent of damage may be unclear due to angle and lighting.",
+      "short_visual_summary": "The image shows a blue car with dents and scrapes on the driver and rear doors."
+    },
+    {
+      "image_id": "0005",
+      "filename": "0005.jpg",
+      "visible_damage": [
+        "scrape",
+        "dent",
+        "paint_transfer"
+      ],
+      "damaged_parts": [
+        "rear_bumper",
+        "rear_quarter_panel"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.9,
+      "uncertainty": "The image angle partially obscures the depth and full extent of the damage.",
+      "short_visual_summary": "The rear bumper and rear quarter panel show visible scrapes, dents, and paint transfer."
+    },
+    {
+      "image_id": "0012",
+      "filename": "0012.jpg",
+      "visible_damage": [
+        "dent",
+        "scrape"
+      ],
+      "damaged_parts": [
+        "rear_quarter_panel"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.85,
+      "uncertainty": "The angle of the image limits the view to only a part of the rear quarter panel, making it difficult to assess any additional damage.",
+      "short_visual_summary": "The image shows a dent and scrape on the rear quarter panel of the vehicle."
+    },
+    {
+      "image_id": "0015",
+      "filename": "0015.jpg",
+      "visible_damage": [
+        "dent"
+      ],
+      "damaged_parts": [
+        "front_quarter_panel",
+        "driver_door"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.8,
+      "uncertainty": "The angle and lighting might obscure other minor details or damage.",
+      "short_visual_summary": "The car shows a significant dent on the front quarter panel and driver door."
+    },
+    {
+      "image_id": "0016",
+      "filename": "0016.jpg",
+      "visible_damage": [
+        "scrape",
+        "dent",
+        "paint_transfer"
+      ],
+      "damaged_parts": [
+        "front_quarter_panel",
+        "wheel"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.85,
+      "uncertainty": "The angle and lighting make it difficult to assess the full depth of the damage.",
+      "short_visual_summary": "The front left quarter panel of a red vehicle shows scrapes and dents with some paint transfer visible. The wheel also appears to be scratched."
+    },
+    {
+      "image_id": "0017",
+      "filename": "0017.jpg",
+      "visible_damage": [
+        "dent"
+      ],
+      "damaged_parts": [
+        "driver_door"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The angle and lighting are clear, but the depth of the dent is hard to judge.",
+      "short_visual_summary": "The car has a noticeable dent on the driver door with no additional damage visible."
+    },
+    {
+      "image_id": "0025",
+      "filename": "0025.jpg",
+      "visible_damage": [
+        "dent",
+        "scrape"
+      ],
+      "damaged_parts": [
+        "rear_bumper"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.9,
+      "uncertainty": "The image is clear, but the extent of the dent depth is hard to precisely gauge.",
+      "short_visual_summary": "The rear bumper of the vehicle shows dents and scrapes, suggesting cosmetic damage."
+    },
+    {
+      "image_id": "0027",
+      "filename": "0027.jpg",
+      "visible_damage": [
+        "dent",
+        "scrape"
+      ],
+      "damaged_parts": [
+        "rear_bumper"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.9,
+      "uncertainty": "The lighting and angle make it difficult to assess the full depth of the dent.",
+      "short_visual_summary": "The image shows a blue car with a noticeable dent and scrape on the rear bumper."
+    },
+    {
+      "image_id": "0028",
+      "filename": "0028.jpg",
+      "visible_damage": [
+        "scrape",
+        "dent"
+      ],
+      "damaged_parts": [
+        "driver_door"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The image clearly shows the driver's side door, but depth of damage is unclear due to angle and lighting.",
+      "short_visual_summary": "The vehicle's driver side door has visible scrapes and dents."
+    },
+    {
+      "image_id": "D0023",
+      "filename": "D0023.jpg",
+      "visible_damage": [
+        "shattered_glass"
+      ],
+      "damaged_parts": [
+        "rear_windshield"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The image provides a clear view of the rear windshield but lacks context on other potential damages.",
+      "short_visual_summary": "The rear windshield of the vehicle is shattered with several large holes visible."
+    },
+    {
+      "image_id": "F0022",
+      "filename": "F0022.jpg",
+      "visible_damage": [
+        "shattered_glass"
+      ],
+      "damaged_parts": [
+        "rear_windshield"
+      ],
+      "severity_hint": "low",
+      "confidence": 0.9,
+      "uncertainty": "Image angle and distance limit visibility of other areas of the vehicle.",
+      "short_visual_summary": "The rear windshield of the SUV is shattered while other parts of the vehicle appear undamaged from this angle."
+    },
+    {
+      "image_id": "G0021",
+      "filename": "G0021.jpg",
+      "visible_damage": [
+        "shattered_glass"
+      ],
+      "damaged_parts": [
+        "rear_windshield"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The image does not show other parts of the car, so further damage may be present that is not visible.",
+      "short_visual_summary": "The rear windshield of a car is shattered with broken glass visible around the area."
+    },
+    {
+      "image_id": "G0030",
+      "filename": "G0030.jpg",
+      "visible_damage": [
+        "shattered_glass"
+      ],
+      "damaged_parts": [
+        "side_window"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The image does not show other parts of the car, so further damage cannot be assessed.",
+      "short_visual_summary": "The car's side window is shattered, with visible glass fragments on the window frame."
+    },
+    {
+      "image_id": "S0006",
+      "filename": "S0006.jpg",
+      "visible_damage": [
+        "dent",
+        "crumple"
+      ],
+      "damaged_parts": [
+        "trunk",
+        "rear_bumper"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The lighting and angle provide a clear view, but the internal damage, if any, is not visible.",
+      "short_visual_summary": "The rear of the vehicle shows significant denting and crumpling on the trunk and bumper."
+    },
+    {
+      "image_id": "S0016",
+      "filename": "S0016.jpg",
+      "visible_damage": [
+        "crumple",
+        "shattered_glass",
+        "structural_deformation"
+      ],
+      "damaged_parts": [
+        "driver_door",
+        "front_quarter_panel",
+        "windshield",
+        "roof"
+      ],
+      "severity_hint": "high",
+      "confidence": 0.9,
+      "uncertainty": "The angle limits visibility of the rear part of the vehicle, making it unclear if additional damage exists there.",
+      "short_visual_summary": "The vehicle shows severe crumpling and shattered glass on the driver's side. The damage extends from the driver's door to the front quarter panel and windshield."
+    },
+    {
+      "image_id": "S0017",
+      "filename": "S0017.jpg",
+      "visible_damage": [
+        "dent",
+        "scrape",
+        "crumple",
+        "paint_transfer"
+      ],
+      "damaged_parts": [
+        "rear_bumper",
+        "taillight",
+        "rear_quarter_panel"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "The image is clear, but the angle might obscure some underlying structural issues.",
+      "short_visual_summary": "The rear of the car shows dents, scrapes, and crumpling, with visible damage to the rear bumper, taillight, and rear quarter panel."
+    },
+    {
+      "image_id": "S0022",
+      "filename": "S0022.jpg",
+      "visible_damage": [
+        "burn_damage"
+      ],
+      "damaged_parts": [
+        "rear_bumper",
+        "taillight"
+      ],
+      "severity_hint": "medium",
+      "confidence": 0.9,
+      "uncertainty": "lighting conditions make it difficult to assess depth and additional damage.",
+      "short_visual_summary": "A police vehicle with burn damage focused on the rear bumper and taillight area."
+    }
+  ]
+}

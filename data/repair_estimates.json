@@ -1,0 +1,228 @@
+{
+  "generated_at": "2026-06-16",
+  "currency": "EUR",
+  "total_estimates": 20,
+  "notes": "estimate_plausibility reflects how well the listed parts and costs align with damage visible in the damage image. reasonable = parts and cost match image. high = one or more parts not clearly visible, or cost is elevated. suspicious = listed parts contradict or cannot be reconciled with image. unclear = no image available to verify.",
+  "estimates": [
+    {
+      "repair_estimate_id": "REP-2026-001",
+      "claim_id": "CLM-2026-001",
+      "repair_shop": "Meijer Autoschadeherstel",
+      "damaged_parts": ["rear_bumper", "rear_quarter_panel"],
+      "labor_hours": 6.0,
+      "parts_cost": 490.00,
+      "labor_cost": 420.00,
+      "total_estimated_cost": 910.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-002",
+      "claim_id": "CLM-2026-002",
+      "repair_shop": "AutoFix Centrum",
+      "damaged_parts": ["rear_bumper"],
+      "labor_hours": 5.5,
+      "parts_cost": 660.00,
+      "labor_cost": 412.50,
+      "total_estimated_cost": 1072.50,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-003",
+      "claim_id": "CLM-2026-003",
+      "repair_shop": "Stella Carrosserie",
+      "damaged_parts": ["driver_door"],
+      "labor_hours": 10.0,
+      "parts_cost": 940.00,
+      "labor_cost": 800.00,
+      "total_estimated_cost": 1740.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-004",
+      "claim_id": "CLM-2026-004",
+      "repair_shop": "Van den Berg Carrosserie",
+      "damaged_parts": ["driver_door"],
+      "labor_hours": 9.0,
+      "parts_cost": 860.00,
+      "labor_cost": 720.00,
+      "total_estimated_cost": 1580.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-005",
+      "claim_id": "CLM-2026-005",
+      "repair_shop": "CarCare Plus",
+      "damaged_parts": ["driver_door", "driver_door_mirror_housing"],
+      "labor_hours": 8.5,
+      "parts_cost": 720.00,
+      "labor_cost": 637.50,
+      "total_estimated_cost": 1357.50,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-006",
+      "claim_id": "CLM-2026-006",
+      "repair_shop": "Meijer Autoschadeherstel",
+      "damaged_parts": ["rear_quarter_panel"],
+      "labor_hours": 7.0,
+      "parts_cost": 800.00,
+      "labor_cost": 490.00,
+      "total_estimated_cost": 1290.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-007",
+      "claim_id": "CLM-2026-007",
+      "repair_shop": "AutoFix Centrum",
+      "damaged_parts": ["rear_bumper"],
+      "labor_hours": 4.5,
+      "parts_cost": 520.00,
+      "labor_cost": 337.50,
+      "total_estimated_cost": 857.50,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-008",
+      "claim_id": "CLM-2026-008",
+      "repair_shop": "CarCare Plus",
+      "damaged_parts": ["rear_bumper"],
+      "labor_hours": 4.0,
+      "parts_cost": 415.00,
+      "labor_cost": 300.00,
+      "total_estimated_cost": 715.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-009",
+      "claim_id": "CLM-2026-009",
+      "repair_shop": "Stella Carrosserie",
+      "damaged_parts": ["driver_side_window", "window_seal"],
+      "labor_hours": 2.5,
+      "parts_cost": 460.00,
+      "labor_cost": 200.00,
+      "total_estimated_cost": 660.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-010",
+      "claim_id": "CLM-2026-010",
+      "repair_shop": "EuroBody Repairs",
+      "damaged_parts": ["rear_bumper", "trunk_lid", "trunk_floor_panel"],
+      "labor_hours": 18.0,
+      "parts_cost": 1720.00,
+      "labor_cost": 1530.00,
+      "total_estimated_cost": 3250.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-011",
+      "claim_id": "CLM-2026-011",
+      "repair_shop": "Van den Berg Carrosserie",
+      "damaged_parts": ["rear_bumper", "taillight_assembly", "rear_quarter_panel", "boot_lid"],
+      "labor_hours": 22.0,
+      "parts_cost": 2280.00,
+      "labor_cost": 1760.00,
+      "total_estimated_cost": 4040.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-012",
+      "claim_id": "CLM-2026-012",
+      "repair_shop": "Meijer Autoschadeherstel",
+      "damaged_parts": ["front_quarter_panel", "alloy_wheel"],
+      "labor_hours": 10.0,
+      "parts_cost": 990.00,
+      "labor_cost": 700.00,
+      "total_estimated_cost": 1690.00,
+      "estimate_plausibility": "reasonable"
+    },
+    {
+      "repair_estimate_id": "REP-2026-013",
+      "claim_id": "CLM-2026-013",
+      "repair_shop": "EuroBody Repairs",
+      "damaged_parts": ["driver_door", "rear_door", "door_sill_trim"],
+      "labor_hours": 17.0,
+      "parts_cost": 1780.00,
+      "labor_cost": 1445.00,
+      "total_estimated_cost": 3225.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-014",
+      "claim_id": "CLM-2026-014",
+      "repair_shop": "AutoFix Centrum",
+      "damaged_parts": ["front_quarter_panel", "driver_door", "front_door_seal"],
+      "labor_hours": 14.0,
+      "parts_cost": 1520.00,
+      "labor_cost": 1050.00,
+      "total_estimated_cost": 2570.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-015",
+      "claim_id": "CLM-2026-015",
+      "repair_shop": "Stella Carrosserie",
+      "damaged_parts": ["rear_windshield", "rear_windshield_seal", "rear_heating_element"],
+      "labor_hours": 3.5,
+      "parts_cost": 1100.00,
+      "labor_cost": 280.00,
+      "total_estimated_cost": 1380.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-016",
+      "claim_id": "CLM-2026-016",
+      "repair_shop": "CarCare Plus",
+      "damaged_parts": ["rear_windshield", "rear_windshield_frame", "rear_wiper_mechanism"],
+      "labor_hours": 4.0,
+      "parts_cost": 1250.00,
+      "labor_cost": 300.00,
+      "total_estimated_cost": 1550.00,
+      "estimate_plausibility": "high"
+    },
+    {
+      "repair_estimate_id": "REP-2026-017",
+      "claim_id": "CLM-2026-017",
+      "repair_shop": "Meijer Autoschadeherstel",
+      "damaged_parts": ["rear_bumper", "trunk_lid", "rear_lower_valance", "parking_sensors"],
+      "labor_hours": 16.0,
+      "parts_cost": 2680.00,
+      "labor_cost": 1120.00,
+      "total_estimated_cost": 3800.00,
+      "estimate_plausibility": "suspicious"
+    },
+    {
+      "repair_estimate_id": "REP-2026-018",
+      "claim_id": "CLM-2026-018",
+      "repair_shop": "EuroBody Repairs",
+      "damaged_parts": ["front_bumper", "hood", "front_quarter_panel_left", "front_quarter_panel_right", "airbag_module", "radiator"],
+      "labor_hours": 32.0,
+      "parts_cost": 3780.00,
+      "labor_cost": 2720.00,
+      "total_estimated_cost": 6500.00,
+      "estimate_plausibility": "suspicious"
+    },
+    {
+      "repair_estimate_id": "REP-2026-019",
+      "claim_id": "CLM-2026-019",
+      "repair_shop": "Van den Berg Carrosserie",
+      "damaged_parts": ["rear_door", "rear_quarter_panel"],
+      "labor_hours": 12.0,
+      "parts_cost": 1020.00,
+      "labor_cost": 960.00,
+      "total_estimated_cost": 1980.00,
+      "estimate_plausibility": "unclear"
+    },
+    {
+      "repair_estimate_id": "REP-2026-020",
+      "claim_id": "CLM-2026-020",
+      "repair_shop": "EuroBody Repairs",
+      "damaged_parts": ["driver_door", "front_quarter_panel", "windshield", "roof_panel", "a_pillar", "airbag_system"],
+      "labor_hours": 60.0,
+      "parts_cost": 9400.00,
+      "labor_cost": 5100.00,
+      "total_estimated_cost": 14500.00,
+      "estimate_plausibility": "reasonable"
+    }
+  ]
+}

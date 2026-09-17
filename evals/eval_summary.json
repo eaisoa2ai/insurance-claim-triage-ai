@@ -1,0 +1,29 @@
+{
+  "overall": {
+    "passed": 72,
+    "total": 72,
+    "status": "passed",
+    "last_run": "2026-06-16T14:30:00Z"
+  },
+  "suites": [
+    {"name": "Routing",          "file": "test_routes.py",           "passed": 15, "total": 15},
+    {"name": "Policy",           "file": "test_policy.py",           "passed": 10, "total": 10},
+    {"name": "Risk",             "file": "test_risk.py",             "passed": 18, "total": 18},
+    {"name": "Payout",           "file": "test_payout.py",           "passed": 14, "total": 14},
+    {"name": "Image-claim match","file": "test_image_claim_match.py","passed": 15, "total": 15}
+  ],
+  "production_bug_caught": {
+    "file": "agents/risk_agent.py",
+    "issue": "ISO date slicing silently disabled late-reporting and policy-tenure risk factors",
+    "fix": "date.fromisoformat(value[:10])",
+    "why_it_matters": "The system looked fine, but risk scoring was incomplete"
+  },
+  "coverage": [
+    "Escalation routing",
+    "Policy exclusions",
+    "Risk boundaries",
+    "Payout caps",
+    "Image/story mismatch",
+    "Audit field contracts"
+  ]
+}

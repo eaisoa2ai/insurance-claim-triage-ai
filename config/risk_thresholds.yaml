@@ -1,0 +1,28 @@
+risk:
+  human_review_threshold: 70    # risk_score >= this → escalate to human review
+  confidence_floor: 0.75        # any agent confidence < this → escalate
+
+  # Factor weights — must sum to 100; edit here, not in agent code
+  factors:
+    consistency_weight: 35              # inverted image/claim consistency score
+    prior_claims_weight: 25             # claim frequency in rolling 24-month window
+    late_reporting_weight: 15           # days between incident and submission
+    estimate_vs_severity_weight: 15     # repair estimate vs expected ceiling
+    policy_tenure_weight: 10            # new-policy flag (claim within first N months)
+    prior_claims_count_threshold: 2     # >= this count triggers full prior-claims weight
+    late_reporting_days: 30             # > this many days → late reporting flag
+    new_policy_months: 6                # policy age < this at incident → new-policy flag
+
+  # Expected maximum repair estimate per image severity label.
+  # Estimates exceeding the ceiling (or within 80% of it) contribute to risk score.
+  severity_estimate_ranges:
+    minor:    {max: 3000}
+    moderate: {max: 10000}
+    severe:   {max: 50000}
+    unknown:  {max: 50000}
+
+payout:
+  auto_approve_limit: 5000      # payout amount > this → human review
+
+vision:
+  mismatch_threshold: 0.60      # consistency_score < this → flag image/claim mismatch

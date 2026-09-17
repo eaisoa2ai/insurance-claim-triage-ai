@@ -1,0 +1,58 @@
+{
+  "policy_id": "AUTO-STD-001",
+  "policy_name": "Standard Auto Collision Cover",
+  "effective_date": "2025-01-01",
+  "end_date": "2026-12-31",
+  "deductible": 500,
+  "coverage_cap": 15000,
+  "coverages": {
+    "collision": {
+      "clause": "Clause 1.1 — Collision Damage",
+      "coverage_ratio": 0.80,
+      "covered_damage_types": ["collision", "scrape", "dent", "total_loss"],
+      "excluded_damage_types": ["fire", "flood", "vandalism", "glass"],
+      "excluded_damage_clauses": {
+        "fire":      "Clause 2.1 — Fire and Burn Damage",
+        "flood":     "Clause 2.2 — Flood and Water Damage",
+        "vandalism": "Clause 2.3 — Theft and Vandalism",
+        "glass":     "Clause 2.4 — Glass-Only Damage"
+      }
+    }
+  },
+  "exclusions": [
+    "damage_reported_after_90_days",
+    "intentional_damage",
+    "commercial_use",
+    "racing_and_track_events",
+    "pre_existing_damage",
+    "unlicensed_driver",
+    "misrepresentation"
+  ],
+  "exclusion_clauses": {
+    "damage_reported_after_90_days": "Clause 4.3 / Clause E.7",
+    "intentional_damage":            "Clause E.1",
+    "commercial_use":                "Clause E.3",
+    "racing_and_track_events":       "Clause E.4",
+    "pre_existing_damage":           "Clause 2.6 / Clause E.5",
+    "unlicensed_driver":             "Clause E.2",
+    "misrepresentation":             "Clause E.10"
+  },
+  "manual_review_triggers": {
+    "payout_exceeds":             5000,
+    "payout_clause":              "Clause 5.3 — High-Value Claims",
+    "prior_claims_count":         3,
+    "prior_claims_window_months": 24,
+    "prior_claims_clause":        "Clause 5.4 — High Claim Frequency",
+    "late_reporting_days":        30,
+    "late_reporting_clause":      "Clause 4.2 / Clause 5.5 — Late-Reported Claims",
+    "inconsistent_evidence_clause": "Clause 5.1 / Clause E.6 — Inconsistent Damage Evidence",
+    "missing_photograph_clause":  "Clause 5.2 — Missing Damage Photograph"
+  },
+  "late_reporting": {
+    "deadline_days":          30,
+    "escalation_window_days": 90,
+    "hard_rejection_days":    90,
+    "deadline_clause":        "Clause 4.1 — Reporting Deadline",
+    "rejection_clause":       "Clause 4.3 — Claims Rejected After 90 Days"
+  }
+}
