@@ -1,5 +1,7 @@
 # ClaimSight — Insurance Claims AI Agent Team
 
+This repository serves as a sanitized, production-ready reference architecture built to demonstrate enterprise agentic patterns. It mirrors the architectural designs, multi-agent state machines, and evaluation frameworks I deploy in enterprise environments, stripped of proprietary data and corporate logic.
+
 A production-style five-agent LangGraph pipeline that processes auto insurance claims end-to-end. Structured claim inputs flow through five sequential agents and produce a decision packet: either auto-approving clean claims or escalating ambiguous, mismatched, or high-risk claims to a human adjuster.
 
 Built to show what an agentic workflow looks like when it has to survive contact with a real decision process: every agent-to-agent handoff is a typed Pydantic model (never a raw string), every decision is written to an audit trail, and seven independent escalation checks gate anything ambiguous into human review instead of auto-approving it.
