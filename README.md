@@ -106,9 +106,9 @@ Output of `uv run python main.py` against the actual fixture data:
 
 | Claim | Story | Decision | Risk score | Payout | Why |
 |---|---|---|---|---|---|
-| `CLM-2026-001` | Minor rear-end scrape, no prior claims | **Auto-approved** | 0 (low) | €228.00 | Image matches story, covered, well under the €5,000 auto-approve limit |
+| `CLM-2026-001` | Minor rear-end scrape, no prior claims | **Auto-approved** | 0 (low) | $228.00 | Image matches story, covered, well under the $5,000 auto-approve limit |
 | `CLM-2026-017` | Burn damage photographed, collision story claimed | **Human review** | 49.2 (medium) | — | Image/claim consistency below threshold + suspicious estimate + low agent confidence |
-| `CLM-2026-020` | Severe side-impact, reported 47 days late, 3 prior claims | **Human review** | 51.7 (medium) | €11,100.00 (recommended, pending approval) | Payout exceeds auto-approve limit + confidence below floor — computed correctly, just gated on a human sign-off |
+| `CLM-2026-020` | Severe side-impact, reported 47 days late, 3 prior claims | **Human review** | 51.7 (medium) | $11,100.00 (recommended, pending approval) | Payout exceeds auto-approve limit + confidence below floor — computed correctly, just gated on a human sign-off |
 
 ## Escalation Conditions (router checks in priority order)
 
@@ -117,7 +117,7 @@ Output of `uv run python main.py` against the actual fixture data:
 3. Risk score >= 70
 4. Policy invalid or missing
 5. Coverage excluded
-6. Payout > €5,000
+6. Payout > $5,000
 7. Risk category = critical
 
 ## Config
