@@ -6,9 +6,9 @@ A production-style five-agent LangGraph pipeline that processes auto insurance c
 
 Built to show what an agentic workflow looks like when it has to survive contact with a real decision process: every agent-to-agent handoff is a typed Pydantic model (never a raw string), every decision is written to an audit trail, and seven independent escalation checks gate anything ambiguous into human review instead of auto-approving it.
 
-## Why this project
+## Why this product
 
-Most agent demos stop at "the LLM produced a plausible-looking answer." Insurance claims can't work that way — a wrong auto-approval is a real payout. This project explores the patterns that make an LLM pipeline safe to put in front of that kind of decision:
+Most agent demos stop at "the LLM produced a plausible-looking answer." Insurance claims can't work that way — a wrong auto-approval is a real payout. This product explores the patterns that make an LLM pipeline safe to put in front of that kind of decision:
 
 - **Structured handoffs, not prose.** No agent passes free text to the next one; everything downstream reads typed fields (see `core/claim_state.py`).
 - **Confidence and evidence on every output.** Each agent reports a `confidence` score and the `evidence` that drove its decision, so low-confidence outputs can be caught mechanically instead of trusted blindly.
